@@ -13,7 +13,7 @@ echo <<<EOM
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   	<script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
   	<script src="openlayers/build/ol.js"></script>
-		// <script src="proj4js-2.3.12/dist/proj4.js"></script>
+		<!-- <script src="proj4js-2.3.12/dist/proj4.js"></script> -->
     <script type="text/javascript">
 
       var map;
