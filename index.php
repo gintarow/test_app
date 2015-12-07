@@ -13,7 +13,7 @@ echo <<<EOM
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   	<script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
   	<script src="openlayers/build/ol.js"></script>
-		<script src="proj4js-2.3.12/dist/proj4.js"></script>
+		// <script src="proj4js-2.3.12/dist/proj4.js"></script>
     <script type="text/javascript">
 
       var map;
@@ -23,7 +23,7 @@ echo <<<EOM
 
 			//緯度経度の測地系変換
 			function transformJ2W(lon,lat){
-				var p = proj4('EPSG:4301','EPSG:4326',[lon,lat]);
+				// var p = proj4('EPSG:4301','EPSG:4326',[lon,lat]);
 				return p;
 			}
 
@@ -48,8 +48,8 @@ echo <<<EOM
 			//初期設定
       function init(){
 				//日本測地系の宣言
-				proj4.defs('EPSG:4301', "+proj=longlat +ellps=bessel +towgs84=-146.336,506.832,680.254,0,0,0,0 + no_defs"); //Proj4jsエラー発生時の動作を登録
-				proj4.reportError = function(msg) {console.log(msg);} //日本測地系から世界測地系への変換関数
+				// proj4.defs('EPSG:4301', "+proj=longlat +ellps=bessel +towgs84=-146.336,506.832,680.254,0,0,0,0 + no_defs"); //Proj4jsエラー発生時の動作を登録
+				// proj4.reportError = function(msg) {console.log(msg);} //日本測地系から世界測地系への変換関数
 
 				setMapSize();
 
