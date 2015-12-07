@@ -1,3 +1,6 @@
+<?php
+echo <<<EOM
+
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -273,3 +276,6 @@
 
   </body>
 </html>
+EOM;
+
+?>
