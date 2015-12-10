@@ -55,7 +55,8 @@ echo <<<EOM
 
         View = new ol.View({
           // center: ol.proj.transform([139.69325423, 35.68970870], 'EPSG:4326', 'EPSG:3857'),   //都庁
-					center: ol.proj.transform([139.76581335, 35.68144572], 'EPSG:4326', 'EPSG:3857'),   //東京駅
+					// center: ol.proj.transform([139.76581335, 35.68144572], 'EPSG:4326', 'EPSG:3857'),   //東京駅
+					center: ol.proj.transform([130.70642710, 32.80549584], 'EPSG:4326', 'EPSG:3857'),   //熊本城
 
           zoom: 15
         });
