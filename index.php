@@ -55,8 +55,8 @@ echo <<<EOM
 
         View = new ol.View({
           // center: ol.proj.transform([139.69325423, 35.68970870], 'EPSG:4326', 'EPSG:3857'),   //都庁
-					center: ol.proj.transform([139.76581335, 35.68144572], 'EPSG:4326', 'EPSG:3857'),   //東京駅
-
+					// center: ol.proj.transform([139.76581335, 35.68144572], 'EPSG:4326', 'EPSG:3857'),   //東京駅
+					center: ol.proj.transform([139.88040268, 35.63292175], 'EPSG:4326', 'EPSG:3857'),   //ディズニーランド
           zoom: 15
         });
 
