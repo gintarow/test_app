@@ -1,6 +1,6 @@
 //緯度経度の測地系変換
 function transformJ2W(lon,lat){
-    // var p = proj4('EPSG:4301','EPSG:4326',[lon,lat]);
+    var p = proj4('EPSG:4301','EPSG:4326',[lon,lat]);
     return p;
 }
 
